@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ex13a</title>
+        <style>
+            .E13a{
+                display:flex;
+                flex-direction: row;
+                height:60px;
+            }
+            .Item-1-container{
+                background-color: lightpink;
+                width:100px;
+                display:flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+            }
+            .item1{
+                background-color: black;
+                color:white;
+            }
+            .Item-2{
+                background-color: lightblue;
+                width:200px;
+            }
+
+
+            .E13b{
+                margin-top: 30px;
+                display:flex;
+                flex-direction: row;
+                height:60px;
+            }
+            .Item-2-container{
+                display: flex;
+                flex-direction: column;
+                background-color: lightblue;
+                width:200px;
+            }
+
+            .row2{
+                display: flex;
+                justify-content: space-between;
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <div class="E13a">
+            <div class="Item-1-container">
+                <div class="item1">item1</div>
+            </div>
+            <div class="Item-2">
+            </div>
+        </div>
+
+        <div class="E13b">
+            <div class="Item-1-container">
+            </div>
+            <div class="Item-2-container">
+                <div>row1</div>
+                <div class="row2">
+                    <div style="background-color: black; color:white">row2</div>
+                    <div style="background-color: black; color:white">row2</div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </body>
+</html>

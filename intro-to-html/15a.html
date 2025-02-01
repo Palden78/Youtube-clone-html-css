@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ex15a</title>
+        <style>
+            *{
+                font-family: Arial;
+            }
+            body{
+                height:3000px;
+                background-color:antiquewhite;
+            }
+
+            .close{
+                position:absolute;
+                font-size:10px;
+                top:5px;
+                right:5px;
+                background-color: black;
+                color:white;
+                padding:8px 10px 8px 10px;
+                border-radius: 60px;
+            }
+
+            .box{
+                position:fixed;
+                height:180px;
+                width:320px;
+                bottom:10px;
+                right:10px;
+                background-color: gray;
+            }
+
+            .close2{
+                position:absolute;
+                font-size:10px;
+                top:-10px;
+                left:-7px;
+                background-color: black;
+                color:white;
+                padding:8px 10px 8px 10px;
+                border-radius: 60px;
+            }
+
+            .time{
+                position: absolute;
+                bottom:5px;
+                right:5px;
+                background-color: black;
+                color:white;
+                font-size: 10px;
+                padding:3px 3px 3px 3px;
+            }
+
+            .Clothing-box{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 20px;
+                margin-left:20px;
+                width:250px;
+                height:250px;
+                background-color: white;
+                position:relative;
+            }
+
+            .shirt{
+                width:200px;
+                height:200px;
+            }
+
+            .discount{
+                position:absolute;
+                top:10px;
+                right:0px;
+                background-color: black;
+                color:white;
+                z-index:2;
+                font-size: 13px;
+                padding:4px 4px 4px 4px;
+            }
+
+            .Add-cart-container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position:absolute;
+                height:70px;
+                width:250px;
+                bottom:0px;
+                background-color: rgba(255, 255, 255, 0.5)
+            }
+
+            .add{
+                font-size:10px;
+                padding:4px 6px 4px 6px;
+                border: black solid 1px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="close">
+            X
+        </div>
+
+        <div class="box">
+            <div class="close2">
+                X
+            </div>
+            <div class="time">0:29</div>
+        </div>
+
+        <div class="Clothing-box">
+            <img class="shirt"
+            src="CatShirt.jpeg" >
+            <div class="discount">20% OFF</div>
+            <div class="Add-cart-container">
+                <button class="add">Add to cart</button>
+            </div>
+        </div>
+        
+    </body>
+</html>
